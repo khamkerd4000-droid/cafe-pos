@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <linearGradient id="brewDarkGrad" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3E2014" />
+      <stop offset="60%" stop-color="#24120B" />
+      <stop offset="100%" stop-color="#150A06" />
+    </linearGradient>
+
+    <linearGradient id="goldCraftGrad" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <linearGradient id="cremaDropGrad" x1="35" y1="25" x2="65" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Emblem: BrewCraft Coffee Cup & Steam (Scaled from 100x100) -->
+  <g transform="translate(5, 5) scale(0.7)">
+    <!-- Outer Squircle Badge with Golden Inset Ring -->
+    <rect width="100" height="100" rx="26" fill="url(#brewDarkGrad)" />
+    <rect x="5" y="5" width="90" height="90" rx="21" stroke="url(#goldCraftGrad)" stroke-width="2" stroke-opacity="0.35" fill="none" />
+
+    <!-- Artisanal Coffee Cup Silhouette (Clean base - no bottom wire) -->
+    <path
+      d="M24 35C24 33.3 25.3 32 27 32H69C70.7 32 72 33.3 72 35V42C72 55 62 64 48 64C34 64 24 55 24 42V35Z"
+      fill="url(#goldCraftGrad)"
+      fill-opacity="0.15"
+      stroke="url(#goldCraftGrad)"
+      stroke-width="3.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Coffee Cup Handle -->
+    <path
+      d="M71 39C78 39 81.5 43.5 81.5 49C81.5 54.5 78 59 71 59"
+      stroke="url(#goldCraftGrad)"
+      stroke-width="3.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Artisanal Saucer Plate Base -->
+    <path
+      d="M22 69C31 72.5 65 72.5 74 69"
+      stroke="url(#goldCraftGrad)"
+      stroke-width="3.2"
+      stroke-linecap="round"
+      fill="none"
+    />
+
+    <!-- Pure Golden Coffee Bean in the center of the cup -->
+    <path
+      d="M48 42C42.5 42 38.5 46 38.5 50.5C38.5 55 42.5 59 48 59C53.5 59 57.5 55 57.5 50.5C57.5 46 53.5 42 48 42Z"
+      fill="url(#cremaDropGrad)"
+    />
+    <!-- Curved S-cleft of coffee bean -->
+    <path
+      d="M47 43C45 47 51 50 49 58"
+      stroke="#24120B"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <!-- 3 Craft Steam Arcs rising above -->
+    <path
+      d="M40 25C40 20 44 19 44 14"
+      stroke="#FDE68A"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-opacity="0.9"
+    />
+    <path
+      d="M48 23C48 17 53 16 53 11"
+      stroke="#F59E0B"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <path
+      d="M56 25C56 20 60 19 60 14"
+      stroke="#FDE68A"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-opacity="0.9"
+    />
+  </g>
+
+  <!-- Typography Right: BrewCraft Roastery & Cafe -->
+  <text x="88" y="46" font-family="'Plus Jakarta Sans', 'Noto Sans Lao', sans-serif" font-size="34" font-weight="900" fill="#2C1810" letter-spacing="-1">Brew<tspan fill="#D97706">Craft</tspan></text>
+  <text x="90" y="66" font-family="'Plus Jakarta Sans', 'Noto Sans Lao', sans-serif" font-size="11" font-weight="800" fill="#B45309" letter-spacing="4">ROASTERY &amp; CAFE</text>
+</svg>
